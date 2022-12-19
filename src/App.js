@@ -2,10 +2,11 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { useSelector } from 'react-redux';
 
-import { Container, Menu, PageBody, Cart } from './AppStyled';
+import { Container, Menu, PageBody } from './AppStyled';
 
-import MenuItem from './components/MenuItem';
 import PrivateRouter from './components/PrivateRouter';
+import MenuItem from './components/MenuItem';
+import Cart from './components/Cart';
 
 
 import HomeScreen from './pages/HomeScreen';
